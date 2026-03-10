@@ -321,10 +321,4 @@ Examples include:
 # 10. One-Line Summary
 
 **CNNs work like the human visual system: they detect simple visual patterns first and gradually combine them to recognize complex objects.**
-"""
 
-path = "/mnt/data/cnn_visual_cortex_explanation.md"
-
-pypandoc.convert_text(md, "md", format="md", outputfile=path, extra_args=["--standalone"])
-
-path
