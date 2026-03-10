@@ -1,7 +1,3 @@
-# Generate the requested Markdown file explaining CNNs in simple terms
-import pypandoc, textwrap, os
-
-md = """
 # Convolutional Neural Networks (CNNs) – Visual Cortex Inspiration (Simple Guide)
 
 ## 1. Introduction
